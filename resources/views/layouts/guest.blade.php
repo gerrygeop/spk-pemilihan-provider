@@ -39,13 +39,13 @@
                   Sistem Pendukung Keputusan
                </h3>
 
-               <h1 class="mt-2 font-semibold text-3xl text-indigo-600 dark:text-white lg:text-5xl">
+               <h1 class="mt-2 font-semibold text-3xl text-emerald-600 dark:text-white lg:text-5xl">
                   Pemilihan Provider Terbaik
                </h1>
 
                <h4 class="mt-2 text-2xl text-gray-700">
                   Menggunakan metode
-                  <span class="font-semibold text-indigo-600">SAW & WP</span>
+                  <span class="font-semibold text-emerald-600">SAW & WP</span>
                </h4>
             </div>
 

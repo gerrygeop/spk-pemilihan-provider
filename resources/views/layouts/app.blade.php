@@ -12,28 +12,39 @@
    <link rel="preconnect" href="https://fonts.bunny.net">
    <link href="https://fonts.bunny.net/css?family=inter:200,300,400,500,600,700" rel="stylesheet" />
 
+   {{-- Google Material Icons --}}
+   <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
    <!-- Scripts -->
    @vite(['resources/css/app.css', 'resources/js/app.js'])
+
+   <style>
+      [x-cloak] {
+         display: none !important;
+      }
+   </style>
+
+   @stack('styles')
 </head>
 
 <body class="font-sans antialiased">
-   <div class="min-h-screen bg-gray-100">
-      @include('layouts.navigation')
+   <div class="min-h-screen text-gray-800 bg-gray-100 md:flex md:flex-col">
+      <main class="md:flex md:flex-grow md:overflow-hidden">
 
-      <!-- Page Heading -->
-      @if (isset($header))
-         <header class="bg-white shadow">
-            <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
-               {{ $header }}
+         @include('layouts.sidebar')
+
+         <div class="w-full">
+            @include('layouts.navigation')
+
+            <div class="h-screen px-0 py-8 sm:px-4 md:px-8 md:overflow-y-auto md:flex-1">
+               {{ $slot }}
             </div>
-         </header>
-      @endif
-
-      <!-- Page Content -->
-      <main>
-         {{ $slot }}
+         </div>
       </main>
    </div>
+
+   @stack('scripts')
 </body>
 
 </html>
