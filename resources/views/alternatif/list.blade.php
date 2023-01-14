@@ -1,12 +1,12 @@
 <x-app-layout>
    <x-slot name="header">
-      Kriteria
+      Alternatif
    </x-slot>
 
    <x-container>
       <div class="mb-6">
          <div class="flex items-center justify-between">
-            <h3 class="font-semibold text-3xl text-gray-700">Daftar Kriteria</h3>
+            <h3 class="font-semibold text-2xl text-gray-700">List</h3>
 
             <x-link href="#">
                <span class="material-symbols-outlined mr-2">
@@ -22,34 +22,34 @@
       <x-table>
          <x-slot name="thead">
             <x-tr-head>
-               <x-th>Nama</x-th>
-               <x-th>Bobot</x-th>
-               <x-th colspan="2">Keterangan</x-th>
+               <x-th>No</x-th>
+               <x-th colspan="2">Nama</x-th>
             </x-tr-head>
          </x-slot>
          <x-slot name="tbody">
             <x-tr-body>
-               <x-td>C1</x-td>
-               <x-td>2</x-td>
-               <x-td>Cost</x-td>
+               <x-td>A1</x-td>
+               <x-td>Lorem Ipsum</x-td>
                <x-td-action />
             </x-tr-body>
             <x-tr-body>
-               <x-td>C2</x-td>
-               <x-td>1</x-td>
-               <x-td>Benefit</x-td>
+               <x-td>A2</x-td>
+               <x-td>Lorem Ipsum</x-td>
                <x-td-action />
             </x-tr-body>
             <x-tr-body>
-               <x-td>C3</x-td>
-               <x-td>5</x-td>
-               <x-td>Benefit</x-td>
+               <x-td>A3</x-td>
+               <x-td>Lorem Ipsum</x-td>
                <x-td-action />
             </x-tr-body>
             <x-tr-body>
-               <x-td>C4</x-td>
-               <x-td>3</x-td>
-               <x-td>Benefit</x-td>
+               <x-td>A4</x-td>
+               <x-td>Lorem Ipsum</x-td>
+               <x-td-action />
+            </x-tr-body>
+            <x-tr-body>
+               <x-td>A5</x-td>
+               <x-td>Lorem Ipsum</x-td>
                <x-td-action />
             </x-tr-body>
          </x-slot>

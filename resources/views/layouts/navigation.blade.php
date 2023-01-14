@@ -60,9 +60,9 @@
    <div
       class="flex justify-between items-center bg-white text-sm border-b shadow-sm md:shadow-none w-full p-4 md:px-8 md:text-md">
       {{-- Page Heading --}}
-      <h3 class="font-medium text-lg text-gray-600 leading-tight">
+      <h6 class="font-medium text-lg text-gray-700">
          {{ $header }}
-      </h3>
+      </h6>
 
       {{-- Settings Dropdown --}}
       <div class="hidden md:flex md:items-center">

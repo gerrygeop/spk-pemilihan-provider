@@ -1,6 +1,10 @@
-<div class="bg-white rounded-lg shadow overflow-x-auto">
+<div class="bg-white rounded-md shadow overflow-x-auto">
    <table class="w-full whitespace-nowrap">
-      {{ $thead }}
-      {{ $tbody }}
+      <thead>
+         {{ $thead }}
+      </thead>
+      <tbody>
+         {{ $tbody }}
+      </tbody>
    </table>
 </div>
