@@ -8,7 +8,7 @@
          <div class="flex items-center justify-between">
             <h3 class="font-semibold text-3xl text-gray-700">Daftar Kriteria</h3>
 
-            <x-link href="#">
+            <x-link href="{{ route('kriteria.create') }}">
                <span class="material-symbols-outlined mr-2">
                   add
                </span>

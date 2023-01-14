@@ -31,9 +31,17 @@ Route::middleware('auth')->group(function () {
         return view('kriteria.list');
     })->name('kriteria.list');
 
+    Route::get('/kriteria/create', function () {
+        return view('kriteria.create');
+    })->name('kriteria.create');
+
     Route::get('/alternatif', function () {
         return view('alternatif.list');
     })->name('alternatif.list');
+
+    Route::get('/alternatif/create', function () {
+        return view('alternatif.create');
+    })->name('alternatif.create');
 });
 
 require __DIR__ . '/auth.php';

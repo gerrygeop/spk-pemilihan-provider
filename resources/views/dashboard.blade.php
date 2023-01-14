@@ -4,8 +4,8 @@
    </x-slot>
 
    <x-container>
-      <x-box>
-         {{ __("You're logged in!") }}
+      <x-box class="text-white bg-gradient-to-r from-emerald-600 to-yellow-400">
+         <span class="text-white">{{ __("You're logged in!") }}</span>
       </x-box>
    </x-container>
 </x-app-layout>

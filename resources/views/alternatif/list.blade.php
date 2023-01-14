@@ -6,13 +6,13 @@
    <x-container>
       <div class="mb-6">
          <div class="flex items-center justify-between">
-            <h3 class="font-semibold text-2xl text-gray-700">List</h3>
+            <h3 class="font-semibold text-3xl text-gray-700">Daftar Alternatif</h3>
 
-            <x-link href="#">
+            <x-link href="{{ route('alternatif.create') }}">
                <span class="material-symbols-outlined mr-2">
                   add
                </span>
-               Tambah Kriteria
+               Tambah Alternatif
             </x-link>
          </div>
       </div>
