@@ -29,7 +29,7 @@
 </head>
 
 <body class="font-sans antialiased">
-   <div class="min-h-screen text-gray-800 bg-gray-100 md:flex md:flex-col">
+   <div class="min-h-screen text-gray-800 bg-gray-200 md:flex md:flex-col">
       <main class="md:flex md:flex-grow md:overflow-hidden">
 
          @include('layouts.sidebar')

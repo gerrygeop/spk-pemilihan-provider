@@ -14,14 +14,14 @@
       {{ __('Dashboard') }}
    </x-sidelink>
 
-   <x-sidelink :href="route('dashboard')">
+   <x-sidelink :href="route('alternatif.list')" :active="request()->routeIs('alternatif.*')">
       <span class="material-symbols-outlined mr-2">
          folder
       </span>
       Alternatif
    </x-sidelink>
 
-   <x-sidelink :href="route('dashboard')">
+   <x-sidelink :href="route('kriteria.list')" :active="request()->routeIs('kriteria.*')">
       <span class="material-symbols-outlined mr-2">
          folder
       </span>
