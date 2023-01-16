@@ -4,8 +4,14 @@
    </x-slot>
 
    <x-container>
-      <x-box class="text-white bg-gradient-to-r from-emerald-600 to-yellow-400">
-         <span class="text-white">{{ __("You're logged in!") }}</span>
+      <x-box class="bg-emerald-50 border border-emerald-500">
+         <p class="font-medium text-emerald-800">{{ __("You're logged in!") }}</p>
+      </x-box>
+
+      <x-box class="flex items-center justify-center mt-4">
+         <h3 class="text-4xl text-gray-700 text-center font-semibold tracking-wide">
+            Sistem Pendukung Keputusan <br> Pemilihan Provider Terbaik <br> Menggunakan Metode SAW & WP
+         </h3>
       </x-box>
    </x-container>
 </x-app-layout>
